@@ -95,6 +95,11 @@
   font-family: 'Kumbh Sans', sans-serif;
 }
 
+body {
+  height: 100vh;
+  background: #f7f7f7;
+}
+
 .hero {
   background: #f7f7f7;
 }
@@ -199,7 +204,7 @@
   text-decoration: none;
 }
 
-.hero__container--btn--btn:after {
+.hero__container--btn:after {
   position: absolute;
   content: '';
   top: 0;
@@ -212,15 +217,15 @@
   border-radius: 4px;
 }
 
-.hero__container--btn--btn:hover:after {
+.hero__container--btn:hover:after {
   width: 100%;
 }
 
-.hero__container--btn--right {
+.hero__container--right {
   text-align: center;
 }
 
-.hero__container--btn--img {
+.hero__container--img {
   height: 100%;
   width: 100%;
 }

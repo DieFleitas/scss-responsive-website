@@ -9,6 +9,11 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+body {
+    height: 100vh;
+    background: $light;
+}
+
 // HERO
 .hero {
     background: $light;
@@ -93,31 +98,31 @@
                 color: $light;
                 text-decoration: none;
             }
+        }
 
-            &--btn:after {
-                position: absolute;
-                content: '';
-                top: 0;
-                left: 0;
-                width: 0;
-                height: 100%;
-                background: $orangeRed;
-                transition: all 0.3s;
-                border-radius: 4px;
-            }
+        &--btn:after {
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            background: $orangeRed;
+            transition: all 0.3s;
+            border-radius: 4px;
+        }
 
-            &--btn:hover:after {
-                width: 100%;
-            }
+        &--btn:hover:after {
+            width: 100%;
+        }
 
-            &--right {
-                text-align: center;
-            }
+        &--right {
+            text-align: center;
+        }
 
-            &--img {
-                height: 100%;
-                width: 100%;
-            }
+        &--img {
+            height: 100%;
+            width: 100%;
         }
     }
 }
